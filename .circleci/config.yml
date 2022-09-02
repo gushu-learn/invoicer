@@ -49,7 +49,7 @@ jobs:
 
       - run:
           name: Test dependencies are up to date
-          command: cd ${GOPATH_BASE}/${CIRCLE_PROJECT_REPONAME} && pwd'
+          command: cd ${GOPATH_BASE}/${CIRCLE_PROJECT_REPONAME} && pwd
 
       - deploy:
           # Push application container to dockerhub
