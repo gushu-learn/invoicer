@@ -5,7 +5,7 @@ jobs:
     # You will need to modify the code below to reflect your github account/repo setup
     working_directory: /go/src/github.com/gushu-learn/invoicer
     docker:
-      - image: circleci/golang:1.11
+      - image: circleci/golang:latest
     branches:
       only:
         - master
